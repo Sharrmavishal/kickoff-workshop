@@ -1,0 +1,33 @@
+
+import { Button } from '@/components/ui/button';
+import { Rocket } from 'lucide-react';
+
+export default function CtaSection() {
+  return (
+    <section className="py-12 md:py-20 bg-primary text-primary-foreground rounded-lg shadow-xl animate-fadeIn" style={{animationDelay: '0.8s'}}>
+      <div className="section-container text-center">
+        <Rocket className="h-16 w-16 text-accent mx-auto mb-6" />
+        <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+          Ready to Launch Your Business?
+        </h2>
+        <p className="text-lg sm:text-xl mb-8 max-w-xl mx-auto">
+          Don't miss this opportunity to get expert guidance and a clear path forward. Secure your spot today!
+        </p>
+        <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg animate-pulse_custom transform hover:scale-105 transition-transform duration-300 px-8 py-3 text-lg">
+          <a href="https://hub.startsolo.in/l/f4aac85c90" target="_blank" rel="noopener noreferrer">
+            Get Started Today!
+          </a>
+        </Button>
+      </div>
+      <style jsx>{`
+        @keyframes pulse_custom_keyframe {
+          0%, 100% { opacity: 1; transform: scale(1); }
+          50% { opacity: .8; transform: scale(1.02); }
+        }
+        .animate-pulse_custom {
+          animation: pulse_custom_keyframe 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+      `}</style>
+    </section>
+  );
+}
