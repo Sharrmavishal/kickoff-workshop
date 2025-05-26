@@ -9,32 +9,32 @@ body {
 
 @layer base {
   :root {
-    --background: 26 67% 93%; /* #F9EBE1 Very light peach */
-    --foreground: 20 25% 20%; /* Dark grayish brown */
+    --background: 0 0% 100%; /* White */
+    --foreground: 20 10% 20%; /* Dark Gray for text */
 
-    --card: 26 60% 90%; /* Slightly off-background for cards */
-    --card-foreground: 20 25% 20%;
+    --card: 0 0% 100%; /* White */
+    --card-foreground: var(--foreground);
 
-    --popover: 26 60% 90%;
-    --popover-foreground: 20 25% 20%;
+    --popover: 0 0% 100%; /* White */
+    --popover-foreground: var(--foreground);
 
-    --primary: 19 76% 57%; /* #E57341 Deep peach */
-    --primary-foreground: 0 0% 100%; /* White */
+    --primary: 19 76% 57%; /* #E57341 - Deep peach (for headlines, primary buttons) */
+    --primary-foreground: 0 0% 100%; /* White (text on primary background) */
 
-    --secondary: 19 70% 75%; /* Lighter peach */
-    --secondary-foreground: 19 76% 30%; /* Darker peach for contrast */
+    --secondary: 0 0% 96%; /* Light Gray (for secondary elements/backgrounds) */
+    --secondary-foreground: 20 10% 25%; /* Darker gray (text on secondary background) */
 
-    --muted: 26 60% 88%; /* Softer background tone */
-    --muted-foreground: 20 25% 45%; /* Softer text */
+    --muted: 0 0% 96%; /* Light Gray (for muted elements) */
+    --muted-foreground: 20 10% 45%; /* Medium Gray (for muted text) */
 
-    --accent: 0 76% 57%; /* #E44041 Coral */
-    --accent-foreground: 0 0% 100%; /* White */
+    --accent: 0 76% 57%; /* #E44041 - Coral (for sub-headlines, CTA buttons/text) */
+    --accent-foreground: 0 0% 100%; /* White (text on accent background) */
 
     --destructive: 0 84.2% 60.2%; /* Default red */
     --destructive-foreground: 0 0% 98%;
 
-    --border: 26 50% 80%; /* Peach-toned border */
-    --input: 26 50% 85%; /* Peach-toned input bg */
+    --border: 0 0% 90%; /* Light Gray border */
+    --input: 0 0% 100%; /* White input background (with border) */
     --ring: 19 76% 57%; /* Primary color for rings */
 
     --chart-1: 12 76% 61%;
@@ -46,32 +46,33 @@ body {
   }
 
   .dark {
-    --background: 20 15% 10%;
-    --foreground: 26 67% 90%;
+    /* Standard dark theme */
+    --background: 20 14% 10%; /* Dark Gray */
+    --foreground: 0 0% 95%; /* Light Gray */
 
-    --card: 20 15% 15%;
-    --card-foreground: 26 67% 90%;
+    --card: 20 14% 12%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 20 15% 15%;
-    --popover-foreground: 26 67% 90%;
+    --popover: 20 14% 12%;
+    --popover-foreground: 0 0% 95%;
 
-    --primary: 19 76% 60%; /* Slightly lighter peach for dark mode */
+    --primary: 19 76% 60%; /* Lighter peach for dark mode */
     --primary-foreground: 20 15% 5%; 
 
-    --secondary: 19 70% 40%; 
-    --secondary-foreground: 19 70% 85%;
+    --secondary: 20 14% 20%; 
+    --secondary-foreground: 0 0% 80%;
 
-    --muted: 20 15% 20%;
-    --muted-foreground: 26 60% 70%;
+    --muted: 20 14% 15%;
+    --muted-foreground: 0 0% 60%;
 
-    --accent: 0 76% 60%; /* Slightly lighter coral for dark mode */
+    --accent: 0 76% 60%; /* Lighter coral for dark mode */
     --accent-foreground: 20 15% 5%;
 
     --destructive: 0 70% 50%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 20 15% 25%;
-    --input: 20 15% 25%;
+    --border: 20 14% 25%;
+    --input: 20 14% 25%;
     --ring: 19 76% 60%;
     
     --chart-1: 220 70% 50%;

@@ -6,13 +6,13 @@ import { Rocket } from 'lucide-react';
 
 export default function CtaSection() {
   return (
-    <section className="py-12 md:py-20 bg-primary text-primary-foreground rounded-lg shadow-xl animate-fadeIn" style={{animationDelay: '0.8s'}}>
+    <section className="py-12 md:py-20 bg-background text-foreground rounded-lg shadow-xl animate-fadeIn" style={{animationDelay: '0.8s'}}>
       <div className="section-container text-center">
         <Rocket className="h-16 w-16 text-accent mx-auto mb-6" />
-        <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+        <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-accent">
           Ready to Kickstart Your Solopreneur Journey?
         </h2>
-        <p className="text-lg sm:text-xl mb-8 max-w-xl mx-auto">
+        <p className="text-lg sm:text-xl mb-8 max-w-xl mx-auto text-foreground">
           “Someday” is too expensive. Your dream is ready for takeoff. Don't miss this opportunity for expert guidance and a clear path forward. Secure your spot in The Solopreneur Kickoff Workshop today!
         </p>
         <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg animate-pulse_custom transform hover:scale-105 transition-transform duration-300 px-8 py-3 text-lg">
