@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Home, Lightbulb } from 'lucide-react';
+import { Home } from 'lucide-react';
 
 export default function Header() {
   return (
@@ -29,12 +29,6 @@ export default function Header() {
                 <Home className="h-4 w-4" />
                 <span className="hidden sm:inline">Home</span>
               </a>
-            </Button>
-            <Button variant="ghost" asChild>
-              <Link href="/value-proposition-generator" className="flex items-center gap-1">
-                <Lightbulb className="h-4 w-4" />
-                <span className="hidden sm:inline">AI Tool</span>
-              </Link>
             </Button>
           </nav>
         </div>
