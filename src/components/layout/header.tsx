@@ -1,8 +1,8 @@
 
-import Link from 'next/link';
 import Image from 'next/image';
+import Link from 'next/link'; // Keep Link for the logo
 import { Button } from '@/components/ui/button';
-import { Home, Wand2 } from 'lucide-react';
+import { Home } from 'lucide-react';
 
 export default function Header() {
   return (
@@ -20,17 +20,17 @@ export default function Header() {
           </Link>
           <nav className="flex items-center space-x-2 sm:space-x-4">
             <Button variant="ghost" asChild>
-              <Link href="/kickoffworkshop" className="flex items-center gap-1">
+              <a 
+                href="https://startsolo.in/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="flex items-center gap-1"
+              >
                 <Home className="h-4 w-4" />
                 <span className="hidden sm:inline">Home</span>
-              </Link>
+              </a>
             </Button>
-            <Button variant="ghost" asChild>
-              <Link href="/value-proposition-generator" className="flex items-center gap-1">
-                <Wand2 className="h-4 w-4" />
-                <span className="hidden sm:inline">AI Tool</span>
-              </Link>
-            </Button>
+            {/* AI Tool link removed */}
           </nav>
         </div>
       </div>
