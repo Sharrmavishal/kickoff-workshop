@@ -17,12 +17,12 @@ export default function WorkshopCurriculumSection() {
         <h2 className="text-3xl font-semibold text-center mb-10 text-primary">
           In This LIVE 3-Hour Workshop, You’ll Learn How To:
         </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"> {/* Changed to lg:grid-cols-3 for 5 items */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {curriculumTopics.map((topic, index) => (
             <Card key={index} className="text-center hover:shadow-xl transition-shadow duration-300 flex flex-col">
               <CardHeader className="flex flex-col items-center">
                 {topic.icon}
-                <CardTitle className="text-xl font-medium text-foreground">{topic.title}</CardTitle>
+                <CardTitle className="text-xl font-medium text-primary">{topic.title}</CardTitle>
               </CardHeader>
               <CardContent className="flex-grow">
                 <p className="text-muted-foreground">{topic.description}</p>

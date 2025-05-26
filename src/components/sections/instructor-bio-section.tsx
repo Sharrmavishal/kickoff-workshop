@@ -27,7 +27,7 @@ export default function InstructorBioSection() {
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <h3 className="text-2xl font-medium text-foreground">Diksha Sethi</h3>
+                <h3 className="text-2xl font-medium text-primary">Diksha Sethi</h3>
                 <p className="text-md text-muted-foreground font-semibold">Founder, Start Solo</p>
                 <p className="text-foreground leading-relaxed">
                   Meet Diksha Sethi—Communications Specialist, brand whisperer, and solopreneur champion. With 18 years of experience leading brands like Mastercard, Ford, IndiGo, SpiceJet, and Qualcomm, she has navigated boardrooms, crisis war rooms, and major brand launches.
