@@ -1,7 +1,8 @@
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { Home, Wand2, Rocket } from 'lucide-react';
+import { Home, Wand2 } from 'lucide-react';
 
 export default function Header() {
   return (
@@ -9,8 +10,13 @@ export default function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors">
-            <Rocket className="h-7 w-7" />
-            <span className="text-xl font-semibold">Solo Launchpad</span>
+            <Image
+              src="https://res.cloudinary.com/dnm2ejglr/image/upload/v1741547630/logos_250_x_50_ma4vuc.svg"
+              alt="Start Solo Logo"
+              width={125} // Adjusted for a reasonable header size, original is 250x50
+              height={25}
+              priority
+            />
           </Link>
           <nav className="flex items-center space-x-2 sm:space-x-4">
             <Button variant="ghost" asChild>
