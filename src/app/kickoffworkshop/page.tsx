@@ -7,7 +7,7 @@ import CtaSection from '@/components/sections/cta-section';
 
 export default function KickoffWorkshopPage() {
   return (
-    <div className="space-y-12 md:space-y-16 lg:space-y-20">
+    <div className="space-y-8 md:space-y-10 lg:space-y-12">
       <HeadlineSection />
       <InstructorBioSection />
       <ValuePropositionSection />
