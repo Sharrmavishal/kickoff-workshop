@@ -1,0 +1,16 @@
+# This file tells Netlify how to build and deploy your Next.js site.
+# Netlify often auto-detects these settings for Next.js projects,
+# but explicitly defining them can be helpful.
+
+[build]
+  # Command to build your site.
+  # This should match the build script in your package.json.
+  command = "next build"
+
+  # Directory (relative to the root of your repo) that contains the deploy-ready
+  # assets and functions. For Next.js, this is typically ".next".
+  publish = ".next"
+
+# The Next.js Runtime (for features like SSR, API routes, Image Optimization)
+# is automatically handled by Netlify's Next.js Build Plugin.
+# No explicit functions directory needs to be specified here for most Next.js apps.
