@@ -1,3 +1,4 @@
+
 "use client";
 
 import { Button } from '@/components/ui/button';
@@ -9,14 +10,14 @@ export default function CtaSection() {
       <div className="section-container text-center">
         <Rocket className="h-16 w-16 text-accent mx-auto mb-6" />
         <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-          Ready to Launch Your Business?
+          Ready to Kickstart Your Solopreneur Journey?
         </h2>
         <p className="text-lg sm:text-xl mb-8 max-w-xl mx-auto">
-          Don't miss this opportunity to get expert guidance and a clear path forward. Secure your spot today!
+          “Someday” is too expensive. Your dream is ready for takeoff. Don't miss this opportunity for expert guidance and a clear path forward. Secure your spot in The Solopreneur Kickoff Workshop today!
         </p>
         <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg animate-pulse_custom transform hover:scale-105 transition-transform duration-300 px-8 py-3 text-lg">
           <a href="https://hub.startsolo.in/l/f4aac85c90" target="_blank" rel="noopener noreferrer">
-            Get Started Today!
+            Join The Solopreneur Kickoff Workshop
           </a>
         </Button>
       </div>

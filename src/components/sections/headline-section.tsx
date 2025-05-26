@@ -1,20 +1,36 @@
 
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export default function HeadlineSection() {
   return (
     <section className="text-center py-12 md:py-20 animate-fadeIn">
+      <div className="mb-8">
+        <Image
+          src="https://res.cloudinary.com/dnm2ejglr/image/upload/v1748078078/linkedin_carousel_2_dmqy7k.png"
+          alt="The Solopreneur Kickoff Workshop Header"
+          width={800}
+          height={400}
+          className="rounded-lg shadow-lg mx-auto"
+          data-ai-hint="workshop business"
+          priority
+        />
+      </div>
       <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-primary">
-        Launch Your Thriving Business <br className="hidden sm:inline" />
-        on <span className="text-accent">Your Terms</span>
+        The Solopreneur Kickoff Workshop
       </h1>
-      <p className="mt-6 text-lg sm:text-xl text-foreground max-w-2xl mx-auto">
-        Discover the blueprint to validate your ideas, find your niche, and secure your first paying client. Start your entrepreneurial journey with confidence.
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight text-accent mt-2">
+        Launch Your Thriving Business on Your Terms
+      </h2>
+      <p className="mt-6 text-lg sm:text-xl text-foreground max-w-3xl mx-auto">
+        “Someday” is too expensive. Your dream is ready for takeoff. What if you could skip the MBA, investors and the 9-5 grind and start building your business this week?
+        <br /><br />
+        Join <strong>Diksha Sethi, Co-founder of Start Solo</strong>, in <strong>The Solopreneur Kickoff Workshop</strong>—a live, 3-hour masterclass to turn your skill, passion, or idea into a revenue-generating venture.
       </p>
-      <div className="mt-8">
-        <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg transform hover:scale-105 transition-transform duration-300">
+      <div className="mt-10">
+        <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg transform hover:scale-105 transition-transform duration-300 px-10 py-3 text-xl">
           <a href="https://hub.startsolo.in/l/f4aac85c90" target="_blank" rel="noopener noreferrer">
-            Join the Workshop Now
+            Join The Workshop Now
           </a>
         </Button>
       </div>

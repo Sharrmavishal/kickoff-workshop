@@ -1,14 +1,13 @@
 
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { CheckCircle, Star, Zap } from 'lucide-react';
+import { Card, CardHeader } from '@/components/ui/card'; // Removed CardContent as it's not used directly here.
+import { CheckCircle, Star, Zap, ClipboardList, Goal, UserCheck } from 'lucide-react';
 
 const valueProps = [
-  { text: 'Your First Client Playbook: Step-by-step guidance to land your initial paying customer.', icon: <CheckCircle className="text-primary h-5 w-5" /> },
-  { text: 'Profit Clarity: Understand your numbers and price your offerings effectively for profitability.', icon: <Star className="text-primary h-5 w-5" /> },
-  { text: 'Personalised Roadmap: Develop a custom action plan tailored to your unique business goals.', icon: <Zap className="text-primary h-5 w-5" /> },
-  { text: 'Idea Validation Techniques: Learn how to test your business idea with minimal risk.', icon: <CheckCircle className="text-primary h-5 w-5" /> },
-  { text: 'Niche Discovery: Pinpoint your ideal target audience and carve out your unique market space.', icon: <Star className="text-primary h-5 w-5" /> },
-  { text: 'Offer Creation Mastery: Build compelling offers that resonate with your customers.', icon: <Zap className="text-primary h-5 w-5" /> },
+  { text: 'Your First Client Playbook: Actionable steps to land a paying customer in 90 days.', icon: <CheckCircle className="text-primary h-6 w-6" /> },
+  { text: 'Profit Clarity: Pinpoint exactly how to monetise your expertise into a monetizable offer (writer, creator, consultant—you name it).', icon: <Star className="text-primary h-6 w-6" /> },
+  { text: 'Define Product/Service: Getting off the ground with a compelling product offering.', icon: <ClipboardList className="text-primary h-6 w-6" /> },
+  { text: 'A Personalised Roadmap: No vague advice. Just a step-by-step plan tailored to your goals.', icon: <Goal className="text-primary h-6 w-6" /> },
+  { text: 'Zero-BS Mentorship: Start Solo’s battle-tested strategies—no fluff, just results.', icon: <UserCheck className="text-primary h-6 w-6" /> },
 ];
 
 export default function ValuePropositionSection() {
@@ -16,7 +15,7 @@ export default function ValuePropositionSection() {
     <section className="py-12 md:py-16 bg-card rounded-lg shadow-lg animate-fadeIn" style={{animationDelay: '0.4s'}}>
       <div className="section-container">
         <h2 className="text-3xl font-semibold text-center mb-10 text-primary">
-          What You'll Gain from This Workshop
+          You’ll Walk Away With:
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {valueProps.map((prop, index) => (
