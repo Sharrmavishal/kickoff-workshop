@@ -1,8 +1,8 @@
 
 import Image from 'next/image';
-import Link from 'next/link'; // Keep Link for the logo
+import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Home } from 'lucide-react';
+import { Home, Lightbulb } from 'lucide-react';
 
 export default function Header() {
   return (
@@ -20,17 +20,22 @@ export default function Header() {
           </Link>
           <nav className="flex items-center space-x-2 sm:space-x-4">
             <Button variant="ghost" asChild>
-              <a 
-                href="https://startsolo.in/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href="https://startsolo.in/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-1"
               >
                 <Home className="h-4 w-4" />
                 <span className="hidden sm:inline">Home</span>
               </a>
             </Button>
-            {/* AI Tool link removed */}
+            <Button variant="ghost" asChild>
+              <Link href="/value-proposition-generator" className="flex items-center gap-1">
+                <Lightbulb className="h-4 w-4" />
+                <span className="hidden sm:inline">AI Tool</span>
+              </Link>
+            </Button>
           </nav>
         </div>
       </div>
