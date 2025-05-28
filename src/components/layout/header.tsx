@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Home } from 'lucide-react';
+import { Home, BookOpen } from 'lucide-react';
 
 export default function Header() {
   return (
@@ -28,6 +28,17 @@ export default function Header() {
               >
                 <Home className="h-4 w-4" />
                 <span className="hidden sm:inline">Home</span>
+              </a>
+            </Button>
+            <Button variant="ghost" asChild>
+              <a
+                href="https://startsolo.in/learn"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1"
+              >
+                <BookOpen className="h-4 w-4" />
+                <span className="hidden sm:inline">Learn</span>
               </a>
             </Button>
           </nav>
