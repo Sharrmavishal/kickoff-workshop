@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Home, BookOpen } from 'lucide-react';
+import { Home, BookOpen, LifeBuoy } from 'lucide-react';
 
 export default function Header() {
   return (
@@ -18,13 +18,13 @@ export default function Header() {
               priority
             />
           </Link>
-          <nav className="flex items-center space-x-2 sm:space-x-4">
+          <nav className="flex items-center space-x-1 sm:space-x-2">
             <Button variant="ghost" asChild>
               <a
                 href="https://startsolo.in/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1"
+                className="flex items-center gap-1 px-2 py-1 sm:px-3"
               >
                 <Home className="h-4 w-4" />
                 <span className="hidden sm:inline">Home</span>
@@ -35,10 +35,21 @@ export default function Header() {
                 href="https://startsolo.in/learn"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1"
+                className="flex items-center gap-1 px-2 py-1 sm:px-3"
               >
                 <BookOpen className="h-4 w-4" />
                 <span className="hidden sm:inline">Learn</span>
+              </a>
+            </Button>
+            <Button variant="ghost" asChild>
+              <a
+                href="https://startsolo.in/support"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1 px-2 py-1 sm:px-3"
+              >
+                <LifeBuoy className="h-4 w-4" />
+                <span className="hidden sm:inline">Support</span>
               </a>
             </Button>
           </nav>
