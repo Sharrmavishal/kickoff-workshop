@@ -9,6 +9,9 @@ import { Toaster } from "@/components/ui/toaster";
 export const metadata: Metadata = {
   title: 'The Solopreneur Kickoff Workshop',
   description: 'Launch Your Thriving Business on Your Terms',
+  icons: {
+    icon: 'https://res.cloudinary.com/dnm2ejglr/image/upload/v1741331996/favicon_1_xvlg9x.png',
+  },
 };
 
 export default function RootLayout({
