@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Home, BookOpen, LifeBuoy } from 'lucide-react';
+import { Home, BookOpen, LifeBuoy, Linkedin, Instagram } from 'lucide-react';
 
 export default function Header() {
   return (
@@ -50,6 +50,28 @@ export default function Header() {
               >
                 <LifeBuoy className="h-4 w-4" />
                 <span className="hidden sm:inline">Support</span>
+              </a>
+            </Button>
+            <Button variant="ghost" size="icon" asChild>
+              <a
+                href="https://www.linkedin.com/company/start-solo"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                className="p-2"
+              >
+                <Linkedin className="h-5 w-5" />
+              </a>
+            </Button>
+            <Button variant="ghost" size="icon" asChild>
+              <a
+                href="https://www.instagram.com/start.solo/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="p-2"
+              >
+                <Instagram className="h-5 w-5" />
               </a>
             </Button>
           </nav>
