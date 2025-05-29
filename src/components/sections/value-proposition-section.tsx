@@ -13,7 +13,7 @@ const valueProps = [
 export default function ValuePropositionSection() {
   return (
     <section className="py-12 md:py-16 bg-card rounded-lg shadow-lg animate-fadeIn" style={{animationDelay: '0.4s'}}>
-      <div className="section-container">
+      <div className="section-container px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-semibold text-center mb-10 text-primary">
           You’ll Walk Away With:
         </h2>
@@ -23,7 +23,7 @@ export default function ValuePropositionSection() {
               <CardHeader>
                 <div className="flex items-start space-x-3">
                   <div className="flex-shrink-0 mt-1">{prop.icon}</div>
-                  <p className="text-lg font-medium text-foreground">{prop.text}</p>
+                  <p className="text-base sm:text-lg font-medium text-foreground">{prop.text}</p>
                 </div>
               </CardHeader>
             </Card>

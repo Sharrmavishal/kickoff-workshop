@@ -1,4 +1,3 @@
-
 "use client";
 
 import { Button } from '@/components/ui/button';
@@ -15,7 +14,7 @@ export default function CtaSection() {
         <p className="text-lg sm:text-xl mb-8 max-w-xl mx-auto text-foreground">
           “Someday” is too expensive. Your dream is ready for takeoff. Don't miss this opportunity for expert guidance and a clear path forward. Secure your spot in The Solopreneur Kickoff Workshop today!
         </p>
-        <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg animate-pulse_custom transform hover:scale-105 transition-transform duration-300 px-8 py-3 text-lg">
+        <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg animate-pulse_custom transform hover:scale-105 transition-transform duration-300 py-3 text-lg px-6 sm:px-8">
           <a href="https://hub.startsolo.in/l/f4aac85c90" target="_blank" rel="noopener noreferrer">
             Join The Solopreneur Kickoff Workshop
           </a>

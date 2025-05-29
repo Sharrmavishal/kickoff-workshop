@@ -6,7 +6,7 @@ import { UserCheck, Award, Users, Presentation, CheckCircle } from 'lucide-react
 export default function InstructorBioSection() {
   return (
     <section className="py-12 md:py-16 animate-fadeIn" style={{animationDelay: '0.2s'}}>
-      <div className="section-container">
+      <div className="section-container px-4 sm:px-6 lg:px-8">
         <Card className="overflow-hidden shadow-xl">
           <div className="md:flex">
             <div className="md:w-1/3 relative min-h-[300px] md:min-h-0">
@@ -29,10 +29,10 @@ export default function InstructorBioSection() {
               <CardContent className="space-y-4">
                 <h3 className="text-2xl font-medium text-primary">Diksha Sethi</h3>
                 <p className="text-md text-muted-foreground font-semibold">Founder, Start Solo</p>
-                <p className="text-foreground leading-relaxed">
+                <p className="text-sm sm:text-base text-foreground leading-relaxed">
                   Meet Diksha Sethi—Communications Specialist, brand whisperer, and solopreneur champion. With 18 years of experience leading brands like Mastercard, Ford, IndiGo, SpiceJet, and Qualcomm, she has navigated boardrooms, crisis war rooms, and major brand launches.
                 </p>
-                <ul className="space-y-2 text-foreground">
+                <ul className="space-y-2 text-sm sm:text-base text-foreground">
                   <li className="flex items-center gap-2">
                     <Award className="h-5 w-5 text-primary" />
                     <span>18+ years of proven agency leadership expertise</span>
