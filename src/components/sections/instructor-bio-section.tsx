@@ -13,9 +13,10 @@ export default function InstructorBioSection() {
               <Image
                 src="https://res.cloudinary.com/dnm2ejglr/image/upload/v1748078422/Meet_The_Trainer_800x800_400_x_400_px_wov8m8.png"
                 alt="Diksha Sethi, Founder of Start Solo"
-                width={400}
-                height={400}
+                width={800}
+                height={800}
                 className="object-cover w-full h-full"
+                data-ai-hint="professional portrait"
                 priority
               />
             </div>
