@@ -11,7 +11,7 @@ export default function InstructorBioSection() {
           <div className="md:flex">
             <div className="md:w-1/3 relative min-h-[300px] md:min-h-0">
               <Image
-                src="https://res.cloudinary.com/dnm2ejglr/image/upload/v1748078422/Meet_The_Trainer_800x800_400_x_400_px_wov8m8.png"
+                src="https://res.cloudinary.com/dnm2ejglr/image/upload/v1748686599/Meet_The_Trainer_800x800_400_x_400_px_wov8m8.png"
                 alt="Diksha Sethi, Founder of Start Solo"
                 width={800}
                 height={800}
