@@ -23,7 +23,7 @@ export default function InstructorBioSection() {
               <CardHeader>
                 <CardTitle className="text-3xl font-semibold text-primary flex items-center gap-2">
                   <UserCheck className="h-8 w-8 text-accent" />
-                  Meet Your Instructor
+                  Meet Your Trainer
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
