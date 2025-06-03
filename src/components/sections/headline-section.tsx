@@ -29,13 +29,13 @@ export default function HeadlineSection() {
       </p>
       <div className="mt-10 flex flex-col sm:flex-row justify-center items-center gap-4">
         <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg transform hover:scale-105 transition-transform duration-300 px-8 py-3 text-lg">
-          <a href="https://hub.startsolo.in/l/f4aac85c90#date1" target="_blank" rel="noopener noreferrer">
-            Join - Date 1 (DD MMM)
+          <a href="https://hub.startsolo.in/l/f4aac85c90" target="_blank" rel="noopener noreferrer">
+            Join - June 11 (7-10pm)
           </a>
         </Button>
         <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg transform hover:scale-105 transition-transform duration-300 px-8 py-3 text-lg">
-          <a href="https://hub.startsolo.in/l/f4aac85c90#date2" target="_blank" rel="noopener noreferrer">
-            Join - Date 2 (DD MMM)
+          <a href="https://hub.startsolo.in/l/2e06afcd2c" target="_blank" rel="noopener noreferrer">
+            Join - June 14 (12:30-3:30PM)
           </a>
         </Button>
       </div>
