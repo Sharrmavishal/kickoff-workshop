@@ -17,12 +17,12 @@ export default function CtaSection() {
         </p>
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
           <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg animate-pulse_custom transform hover:scale-105 transition-transform duration-300 py-3 text-base sm:text-lg px-6 sm:px-8">
-            <a href="https://hub.startsolo.in/l/f4aac85c90" target="_blank" rel="noopener noreferrer">
+            <a href="https://rzp.io/rzp/solopreneurkickoffjune11" target="_blank" rel="noopener noreferrer">
               Workshop - June 11 (7-10pm)
             </a>
           </Button>
           <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg animate-pulse_custom transform hover:scale-105 transition-transform duration-300 py-3 text-base sm:text-lg px-6 sm:px-8">
-            <a href="https://hub.startsolo.in/l/2e06afcd2c" target="_blank" rel="noopener noreferrer">
+            <a href="https://rzp.io/rzp/solopreneurkickoffjune14" target="_blank" rel="noopener noreferrer">
               Workshop - June 14 (12:30-3:30PM)
             </a>
           </Button>
